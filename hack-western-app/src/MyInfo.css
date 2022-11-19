@@ -1,0 +1,8 @@
+.info-container{
+    width: 1000px; 
+    float:left; 
+    height:700px; 
+    background:gray; 
+    display: relative;
+    overflow-y: scroll;
+}
