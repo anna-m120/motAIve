@@ -14,7 +14,7 @@ function Questionaire({hideQuestionaire}){
     return (<section >
         <h1 id="questionaire_title">Welcome to motivai -- INSERT LOGO HERE</h1>
         {questions.map((data, index) => <div key={"questionaire-question-"+index} className="q_label_wrapper"><label class="q_label">{data.q}:</label> <div><input value={data.n}/></div></div>)}
-        <div style={{textAlign: "center"}}><button className="questionaire_button" onClick={() =>{ 
+        <div style={{textAlign: "center"}}><button className="questionaire_button button-9" onClick={() =>{ 
             hideQuestionaire()
             }}>Submit my background</button></div>
     </section>)
