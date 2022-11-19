@@ -1,14 +1,15 @@
 .mood-box{
-    width: 200px; 
-    float:right; 
+    width: 200px;
+    float:right;
     height:100px; 
     margin:20px;
+    margin-right: 150px;
 }
 
 
 .scene {
-  width: 200px;
-  height: 260px;
+  width: 250px;
+  height: 230px;
   margin: 40px 0;
   perspective: 600px;
 }
@@ -37,15 +38,16 @@
   text-align: center;
   font-weight: bold;
   backface-visibility: hidden;
+  padding-top: 100px;
 }
 
 .card__face--front {
-  background: #23217C;
+  background: #0E0334;
   border-radius: 25px;
 }
 
 .card__face--back {
-  background: #23217C;
+  background: #0E0334;
   border-radius: 25px;
   transform: rotateY(180deg);
 }

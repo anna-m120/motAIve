@@ -4,8 +4,6 @@ function MoodBoard() {
   const [isShownAverages, updateShownAverages] = React.useState(false);
   return (
     <div className="mood-box">
-      
-      
       <div class="scene scene--card">
       <div className={isShownAverages ? "card is-flipped" : "card"} >
         <div class="card__face card__face--front">
