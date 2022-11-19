@@ -14,7 +14,6 @@ function Dashboard() {
       <div className="previous-container">
         <PreviousDay/>
       </div>
-      
     </div>
   );
 }
