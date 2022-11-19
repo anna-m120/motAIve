@@ -1,7 +1,11 @@
 function PreviousDay() {
   return (
     <div>
-      PreviousDay
+      Your previous strategies were:
+      <ul>
+        <li>Read a book</li>
+        <li>Cook your dinner</li>
+      </ul>
     </div>
   );
 }

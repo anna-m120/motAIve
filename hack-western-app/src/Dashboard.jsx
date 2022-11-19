@@ -6,7 +6,6 @@ function Dashboard() {
   return (
     <div>
       <MoodBoard/>
-      Dashboard
       <Chat/>
       <PreviousDay/>
     </div>
