@@ -40,7 +40,7 @@ function Chat(){
 		{messages.map(({bot, message}) => generateMessage(bot, message))}
 		<form className="form" onSubmit={(e) => sendMessage(e)}>
         <label></label>
-          <input placeholder="Enter message here." disabled={!isInputAvaliable} type="text" value={value} onChange={(e) => {handleChange(e.target.value)}} />
+          <input id="chat-box" placeholder="Enter message here." disabled={!isInputAvaliable} type="text" value={value} onChange={(e) => {handleChange(e.target.value)}} />
       </form>
 	</div>
 }
