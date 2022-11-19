@@ -1,18 +1,46 @@
 .msg {
-    margin: 1em;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color:white;
-    border-radius: 10px;
+    margin: 5em;
+    font-size: 1.25rem;
+    
 }
 .msg_bot {
-    padding: 1em;
+    padding: 0.5em;
+    margin: 1em;
 }
 .msg_usr {
-    padding: 1em;
+    margin: 1em;
+    padding: 0.5em;
     text-align: right;
-    background-color: #007AFF;
-    color: white;
     border-radius: 10px;
     padding-left: 20%;
+}
+.msg_usr_text {
+    color: #fff;
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #248bf5;
+}
+.msg_bot_text {
+    color: #000;
+    padding: 1em;
+    
+    border-radius: 10px;
+    background-color: #e5e5ea;
+}
+.form {
+    margin: 2em;
+}
+.form input {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.loading_msg {
+    color: #000;
+    padding: 1em;
+    
+    border-radius: 10px;
+    background-color: #e5e5ea;
 }
