@@ -1,3 +1,7 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -39,4 +43,13 @@
 
 .app {
   display: flex;
+  background-image: linear-gradient(#15005E, #0e3379, #15005E);
+}
+
+header {
+  font-weight: bold;
+  font-size: 5rem;
+  color: white;
+  margin-top: 3rem;
+  margin-left: 1.6rem;
 }

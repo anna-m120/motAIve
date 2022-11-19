@@ -1,7 +1,7 @@
 import Dashboard from "./Dashboard.jsx";
 import MyInfo from "./MyInfo.jsx";
-import Menu from "./Menu.jsx";
-import './Menu.css';
+import Menu from "./MenuClosed.jsx";
+import './MenuClosed.css';
 import './App.css';
 import './TextBoxes.css';
 import './Dashboard.css';
@@ -16,7 +16,7 @@ function App() {
       </div>
       <div className="dashboard-container">
         <header className="text-box">
-          Hello, Blue! 
+          Hello, Blue. 
         </header>
         {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : <MyInfo/>}
         </div>
