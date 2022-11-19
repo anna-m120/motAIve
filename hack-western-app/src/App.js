@@ -25,6 +25,7 @@ function App() {
         <div className="activities">
           {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : <MyInfo/>}
         </div>
+        </div>
     </div>
   );
 }
