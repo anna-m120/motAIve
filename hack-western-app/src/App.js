@@ -4,7 +4,7 @@ import './App.css';
 import React from "react";
 
 function App() {
-  const [isHome, updateIsHome] = React.useState(false);
+  const [isHome, updateIsHome] = React.useState(true);
   return (
     <div>
       <header>

@@ -1,5 +1,5 @@
 import React from "react";
-function Menu({isHome, updateIsHome}) {
+function Menu({updateIsHome}) {
   return (
     <div>
       <button onClick={() =>  updateIsHome(true)}>Home</button>
