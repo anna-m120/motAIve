@@ -11,8 +11,9 @@ function App() {
     <div>
       <div className="menu-bar">
         <Menu isHome={isHome} updateIsHome={updateIsHome}/>
-        {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
+        
       </div>
+      {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
       <header className="text-box">
         Hello Blue! 
       </header>

@@ -1,0 +1,18 @@
+.msg {
+    margin: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:white;
+    border-radius: 10px;
+}
+.msg_bot {
+    padding: 1em;
+}
+.msg_usr {
+    padding: 1em;
+    text-align: right;
+    background-color: #007AFF;
+    color: white;
+    border-radius: 10px;
+    padding-left: 20%;
+}
