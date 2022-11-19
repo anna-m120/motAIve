@@ -1,0 +1,7 @@
+.mood-box{
+    width: 200px; 
+    float:right; 
+    height:100px; 
+    background:gray; 
+    margin:10px
+}

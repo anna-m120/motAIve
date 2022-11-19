@@ -1,4 +1,4 @@
-import "./chat.css"
+import "./Chat.css"
 import LoadingMessage from "./LoadingMessage.jsx";
 import React from "react";
 function Chat(){

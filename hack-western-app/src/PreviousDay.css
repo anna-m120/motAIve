@@ -1,0 +1,7 @@
+.previous-container{
+    width: 1000px; 
+    float:left; 
+    height:200px; 
+    background:gray;
+    margin-top: 20px;
+}
