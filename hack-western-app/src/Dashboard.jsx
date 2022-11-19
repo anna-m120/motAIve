@@ -4,6 +4,7 @@ import Chat from "./Chat.jsx";
 import './Chat.css';
 import './PreviousDay.css';
 import './TextBoxes.css';
+import React from "react";
 
 function Dashboard() {
   return (
