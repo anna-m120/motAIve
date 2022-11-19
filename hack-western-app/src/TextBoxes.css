@@ -3,4 +3,13 @@
     height: 100%;
     width: 100%;
     position: flex;
-  }
+}
+
+.summary-title{
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(60px);
+  color: white;
+}

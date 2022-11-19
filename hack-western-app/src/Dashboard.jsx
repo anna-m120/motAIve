@@ -3,6 +3,7 @@ import PreviousDay from "./PreviousDay.jsx";
 import Chat from "./Chat.jsx";
 import './Chat.css';
 import './PreviousDay.css';
+import './TextBoxes.css';
 
 function Dashboard() {
   return (
@@ -11,6 +12,9 @@ function Dashboard() {
       <div className="chat-container">
         <Chat/>
       </div>
+      <header className="summary-title">
+          Summary of Suggestions
+      </header>
       <div className="previous-container">
         <PreviousDay/>
       </div>

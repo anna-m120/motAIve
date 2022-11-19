@@ -7,7 +7,6 @@
     display: relative;
     overflow-y: scroll;
     border-radius: 5em;
-    
 }
 
 ::-webkit-scrollbar {
