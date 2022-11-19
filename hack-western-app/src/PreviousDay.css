@@ -62,7 +62,7 @@
 
 .suggestion-text{
     display: flex;
-    text-align: center;
+    text-align: left;
     color: #DFDFDF;
     line-height: 30px;
     padding: 20px;
