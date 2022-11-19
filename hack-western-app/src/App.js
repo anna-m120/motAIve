@@ -6,7 +6,10 @@ import './App.css';
 import './TextBoxes.css';
 import './Dashboard.css';
 import './Chat.css';
+import './Chat.css';
 import React from "react";
+import MoodBoard from "./MoodBoard";
+import Chat from "./Chat.jsx";
 import MoodBoard from "./MoodBoard";
 import Chat from "./Chat.jsx";
 
@@ -20,10 +23,8 @@ function App() {
       <div className="dashboard-container">
         <header className="text-box">Hello, Blue.</header>
         <div className="activities">
-
           {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : <MyInfo/>}
         </div>
-      </div>
     </div>
   );
 }
