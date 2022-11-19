@@ -1,18 +1,25 @@
 .chat-container{
-    width: 1000px; 
-    float:left; 
-    height:700px; 
-    background:gray; 
+    margin-top: 1.5em;
+    margin-left: 4rem;
+    width: 50em; 
+    height:50em; 
+    background: #0E0334; 
     display: relative;
     overflow-y: scroll;
+    border-radius: 5em;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
 
 .msg {
-    margin: 5em;
     font-size: 1.25rem;
     
 }
 .msg_bot {
+    
     padding: 0.5em;
     margin: 1em;
 }
@@ -27,7 +34,7 @@
     color: #fff;
     padding: 1em;
     border-radius: 10px;
-    background-color: #248bf5;
+    background-color: #a133cc;
 }
 .msg_bot_text {
     color: #000;
