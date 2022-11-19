@@ -9,19 +9,16 @@ import React from "react";
 function App() {
   const [isHome, updateIsHome] = React.useState(true);
   return (
-    <div>
+    <div className="app">
       <div className="menu-bar">
         <Menu isHome={isHome} updateIsHome={updateIsHome}/>
       </div>
-      <header className="text-box">
-        Hello Blue! 
-      </header>
       <div className="dashboard-container">
-        {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
-      </div>
-      <header className="text-box">
-        Hello Blue! 
-      </header>
+        <header className="text-box">
+          Hello Blue! 
+        </header>
+          {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
+        </div>
     </div>
   );
 }
