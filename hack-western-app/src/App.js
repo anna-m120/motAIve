@@ -1,5 +1,5 @@
-import Dashboard from "../Dashboard.jsx"
-import Menu from "../Menu.jsx"
+import Dashboard from "./Dashboard.jsx"
+import Menu from "./Menu.jsx"
 import './App.css';
 import React from "react";
 
