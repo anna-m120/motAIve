@@ -10,8 +10,6 @@ import './Chat.css';
 import React from "react";
 import MoodBoard from "./MoodBoard";
 import Chat from "./Chat.jsx";
-import MoodBoard from "./MoodBoard";
-import Chat from "./Chat.jsx";
 
 function App() {
   const [isHome, updateIsHome] = React.useState(true);
