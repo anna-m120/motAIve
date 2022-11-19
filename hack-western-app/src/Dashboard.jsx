@@ -1,7 +1,7 @@
 import MoodBoard from "./MoodBoard.jsx";
 import PreviousDay from "./PreviousDay.jsx";
 import Chat from "./Chat.jsx";
-import './Chat.css';
+import './chat.css';
 import './PreviousDay.css';
 
 function Dashboard() {
