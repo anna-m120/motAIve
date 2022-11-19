@@ -3,6 +3,7 @@ import Menu from "./Menu.jsx"
 import './Menu.css';
 import './App.css';
 import './TextBoxes.css';
+import './Dashboard.css';
 import React from "react";
 
 function App() {
@@ -11,9 +12,13 @@ function App() {
     <div>
       <div className="menu-bar">
         <Menu isHome={isHome} updateIsHome={updateIsHome}/>
-        
       </div>
-      {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
+      <header className="text-box">
+        Hello Blue! 
+      </header>
+      <div className="dashboard-container">
+        {isHome ? <Dashboard isHome={isHome} updateIsHome={updateIsHome}/> : ""}
+      </div>
       <header className="text-box">
         Hello Blue! 
       </header>
