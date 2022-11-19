@@ -1,0 +1,7 @@
+.menu-bar{
+    grid-area: left-navbar;
+    background-color: #593090;
+    width: 90px;
+    height: 100vw;
+    position: fixed;
+}
