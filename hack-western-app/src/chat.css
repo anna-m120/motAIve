@@ -1,3 +1,12 @@
+.chat-container{
+    width: 1000px; 
+    float:left; 
+    height:700px; 
+    background:gray; 
+    display: relative;
+    overflow-y: scroll;
+}
+
 .msg {
     margin: 5em;
     font-size: 1.25rem;

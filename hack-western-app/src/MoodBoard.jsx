@@ -1,8 +1,9 @@
 import React from "react";
+import './MoodBoard.css';
 function MoodBoard() {
   const [isShownAverages, updateShownAverages] = React.useState(false);
   return (
-    <div>
+    <div className="mood-box">
       
       <label for="cars">Choose your current mood:</label>
       <select onChange={() => updateShownAverages(true)}>
