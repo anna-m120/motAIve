@@ -1,0 +1,44 @@
+.menu-bar:before {
+    filter: blur(10px);
+    
+  }
+  
+  .menu-bar-open{
+      background-color: rgb(9, 3, 29, 0.48);
+      width: 15em;
+      height: 810px;
+      box-shadow: 0.1em 0.1em 0.6em rgb(0, 0, 0, 0.3);
+  }
+  
+  .line {
+    background-color: white;
+    width: 2.8em;
+    height: 0.22em;
+    margin-bottom: 0.6em;
+    border-radius: 2em;
+  }
+  
+  .burger-closed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+  
+  }
+
+  .button {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .log-out-button {
+    color: white;
+    font-weight: bold;
+  }
+
+  .menu_bar_item_thing {
+    padding: 1em;
+    margin-left: 1em;
+    margin-top: 4em;
+  
+  }
