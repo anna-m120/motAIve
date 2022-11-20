@@ -212,9 +212,17 @@ def constructBotResponse(botQ, userMsg):
   User: negative
   Bot: That's okay! Maybe some of the strategies from today's chat will help you accomplish what you'd like to today.
   --
+  Bot: Were you able to cook something yesterday?
+  User: negative
+  Bot: That's okay! We all have days where cooking is difficult.
+  --
   Bot: What is your favourite recipe?
   User: neutral
   Bot: That sounds good!
+  --
+  Bot: What is your favourite recipe?
+  User: neutral
+  Bot: You have great taste.
   --
   Bot: Have you been spending time with your family?
   User: neutral
@@ -231,8 +239,8 @@ def constructBotResponse(botQ, userMsg):
   response = co.generate(  
     model='large',  
     prompt = prompt,  
-    max_tokens=35,  
-    temperature=0.9,  
+    max_tokens=30,  
+    temperature=0.8,  
     stop_sequences=["--"],
     p = 0.55,
     frequency_penalty = 0.4,
