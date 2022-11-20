@@ -8,7 +8,7 @@ function PreviousDay() {
       </div>
       <div className='suggestion-box1'>
         <div className='suggestion-text'>
-          Read at least 10 pages of a book every single day for the next week.
+          Read at least 10 pages of a book every single day for the next week. Reading releases endorphines and stimulate brain activity.
           </div>
       </div>
       <div className='suggestion-box2'>
@@ -25,8 +25,8 @@ function PreviousDay() {
       </div>
       <div className='suggestion-box3'>
         <div className='suggestion-text'>
-        Eat fibre. There is strong evidence that eating plenty of fibre is associated with a lower risk bowel cancer.
-        Dietary fiber softens stool. A bulky stool is easier to pass, decreasing your chance of constipation. This is essential to live.
+        Reach out to someone you haven't spoken to in a while. Catching up with an old friend often brings back nostalgia
+        and good memories that calm nerves through thinking about pleasant times. Don't be afraid to make that call!
         </div>
       </div>
       <div className='suggestion-box4'>
