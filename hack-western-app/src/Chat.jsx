@@ -15,7 +15,7 @@ function Chat(){
 		// TODO: replace this with true fetch from API
 		var fetchMessage = new Promise(resolve => setTimeout(resolve, 5000));
 		fetchMessage.then(() => {
-			updateMessages(prevMessages => [...prevMessages.slice(0, -1),  {"bot": true, "message": "This is Catie's API response!"}])
+			updateMessages(prevMessages => [...prevMessages.slice(0, -1),  {"bot": true, "message": "bkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rr"}])
 			toggleInputAvaliability(true)
 		})
 		handleChange("")
@@ -25,7 +25,7 @@ function Chat(){
 	React.useEffect(() => {
 		document.getElementsByClassName("chat-container")[0].scrollTop = document.getElementsByClassName("chat-container")[0].scrollHeight;
 	}, [messages])
-	
+
 	function generateMessage(bot, message){
 		if(message == "Loading..."){
 			return <LoadingMessage/>

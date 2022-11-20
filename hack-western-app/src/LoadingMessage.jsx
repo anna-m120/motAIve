@@ -1,7 +1,7 @@
 import React from "react";
 
 function LoadingMessage(){
-	const [text, changeText] = React.useState("Loading...");
+	const [text, changeText] = React.useState("bkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rr");
 	React.useEffect(() => {
 		const interval = setInterval(() => {
             console.log("interval")

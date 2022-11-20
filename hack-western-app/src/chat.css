@@ -19,11 +19,13 @@
 }
 
 .msg_bot {
+    text-align: left;
     word-break: break-all;
     padding: 0.5em;
     margin: 1em;
-    padding: 0.75em 0 0.75em 0;
     background-color: #26116F;
+    border-radius: 10px;
+    padding-right: 20%;
 }
 .msg_usr {
     word-break: break-all;
@@ -36,18 +38,14 @@
 }
 .msg_usr_text {
     color: #fff;
-    padding: 1em;
     /*background-image: linear-gradient(#5E02A4, rgb(165, 93, 219, 0.2));*/
     
     border-radius: 5em;
-    margin-right: 1em;
 }
 .msg_bot_text {
     color: white;
-    padding: 1em;
     border-radius: 5em;
     
-    margin-left: 1em;
 }
 .form {
 }
@@ -75,5 +73,4 @@
     color: #fff;
     padding: 1em;
     border-radius: 5em;
-    margin-left: 1em;
 }
