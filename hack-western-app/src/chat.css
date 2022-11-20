@@ -6,7 +6,7 @@
     background: #0E0334; 
     display: relative;
     overflow-y: scroll;
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 ::-webkit-scrollbar {
@@ -15,7 +15,7 @@
 
 .msg {
     font-size: 1.25rem;
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 .msg_bot {
@@ -45,7 +45,6 @@
     margin-left: 1em;
 }
 .form {
-    margin: 2em;
 }
 .form input {
     color: white;
@@ -57,7 +56,11 @@
     font-size: 1em;
     background-color: transparent;
 }
-
+#chat-box {
+    width: 44em; 
+    margin-left: 4rem;
+    background-color: #0E0334;
+}
 #chat-box::placeholder {
     color: #634ea6;
     padding-left: 1em;

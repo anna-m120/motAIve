@@ -10,9 +10,9 @@ function Dashboard() {
   return (
     <div>
       <MoodBoard/>
-      <div className="chat-container">
+      
         <Chat/>
-      </div>
+  
       <header className="summary-title">
           Summary of Suggestions
       </header>
