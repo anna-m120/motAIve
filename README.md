@@ -1,4 +1,4 @@
-# motaive
+# motAIve
 
 ## Inspiration
 As remote work becomes more prevalent in today's society, more people seem to be getting burnt out quicker than ever. There is a new need for at-home lifestyle tracking to improve the confidence of those working remotely.
