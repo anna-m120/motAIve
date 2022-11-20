@@ -22,7 +22,7 @@ function Questionaire({hideQuestionaire}){
         </svg>
         </div>
         {questions.map((data, index) => <div key={"questionaire-question-"+index} className="q_label_wrapper"><label class="q_label">{data.q}:</label> <div><input value={data.n}/></div></div>)}
-        <div style={{textAlign: "center"}}><button className="questionaire_button button-9" onClick={() =>{ 
+        <div style={{textAlign: "center"}}><button style={{marginTop: `0em`}} className="questionaire_button button-9" onClick={() =>{ 
             hideQuestionaire()
             }}>Submit my background</button></div>
     </section>)
