@@ -6,7 +6,7 @@ function Questionaire({hideQuestionaire}){
         Notification.requestPermission().then((permission) => {
             // If the user accepts, let's create a notification
             if (permission === "granted") {
-                setTimeout(() => new Notification("Take a minute to reflect on your life..."), 20000);
+                setTimeout(() => new Notification("Take a minute to reflect", {icon: "./motaive.png"}), 20000);
             }
           });
       }, []);

@@ -77,7 +77,7 @@ function MoodBoard() {
                     <button>Happy</button>
               </div>
               <button className="status" onClick={() => updateShownAverages(false)}>Change Your Status</button>
-              <div className="feeling">Workplace Mood</div>
+              <div style={{marginTop: `2em`}} className="feeling">Workplace Mood</div>
               <div id="neutral" className="icon-pair">
                   <svg width="3.5rem" height="3.5rem" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="30.5" cy="30.5" r="30.5" fill="url(#paint0_radial_79_18)"/>
