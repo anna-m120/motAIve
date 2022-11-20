@@ -20,7 +20,6 @@
 
 .msg_bot {
     text-align: left;
-    word-break: break-all;
     padding: 0.5em;
     margin: 1em;
     background-color: #26116F;
@@ -28,7 +27,6 @@
     padding-right: 20%;
 }
 .msg_usr {
-    word-break: break-all;
     margin: 1em;
     padding: 0.5em;
     text-align: right;

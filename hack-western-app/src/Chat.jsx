@@ -10,14 +10,28 @@ function Chat(){
 
 	function sendMessage(event){
 		event.preventDefault();
+		const oldMessages = messages;
 		updateMessages([...messages, {"bot": false, "message": value}, {"bot": true, "message": "Loading..."}])
 		toggleInputAvaliability(false)
-		// TODO: replace this with true fetch from API
-		var fetchMessage = new Promise(resolve => setTimeout(resolve, 5000));
-		fetchMessage.then(() => {
-			updateMessages(prevMessages => [...prevMessages.slice(0, -1),  {"bot": true, "message": "bkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rrbkvfsbhifbvoerbpvprebgerogfbreo8frebfoerfbreofb2rfourebwfvor8fyb382r734r843hrg834grf348r34g834rr"}])
-			toggleInputAvaliability(true)
-		})
+		console.log("Bot Message: ", messages[messages.length-1].message);
+		console.log("User Message: ", value);
+		fetch('https://spotty-jealous-evening.glitch.me/', {
+			method: 'POST', // or 'PUT'
+			headers: {
+			  'Content-Type': 'application/json',
+			},
+			body: JSON.stringify({"botQ": messages[messages.length-1].message, "userMsg": value}),
+		  })
+			.then((response) => response.text())
+			.then((text) => {
+				console.log(text)
+				updateMessages(prevMessages => [...prevMessages.slice(0, -1),  {"bot": true, "message": text.split("\n")[0]}])
+				toggleInputAvaliability(true)
+			})
+			.catch((error) => {
+			  console.error('Error:', error);
+			});
+		
 		handleChange("")
 	}
 	
