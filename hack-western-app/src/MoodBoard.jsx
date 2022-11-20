@@ -60,7 +60,7 @@ function MoodBoard() {
         </div>
         <div class="card__face card__face--back">
           <div>
-              <div className="feeling">Your current Mood</div>
+              <div className="feeling">Your Current Mood</div>
               <div className="icon-pair">
                   <svg width="3.5rem" height="3.5rem" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="30.5" cy="30.5" r="30.5" fill="url(#paint0_radial_79_17)"/>
