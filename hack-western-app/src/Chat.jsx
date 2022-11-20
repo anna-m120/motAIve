@@ -18,11 +18,14 @@ function Chat(){
 			updateMessages(prevMessages => [...prevMessages.slice(0, -1),  {"bot": true, "message": "This is Catie's API response!"}])
 			toggleInputAvaliability(true)
 		})
-
 		handleChange("")
 	}
 	
 
+	React.useEffect(() => {
+		document.getElementsByClassName("chat-container")[0].scrollTop = document.getElementsByClassName("chat-container")[0].scrollHeight;
+	}, [messages])
+	
 	function generateMessage(bot, message){
 		if(message == "Loading..."){
 			return <LoadingMessage/>
